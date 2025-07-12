@@ -13,7 +13,7 @@ angka2 = st.number_input("Masukkan angka kedua:", step=1.0, format="%.2f")
 operasi = st.selectbox("Pilih operasi:", ["Penjumlahan", "Pengurangan", "Perkalian", "Pembagian"])
 
 # Tombol Hitung
-if st.button("Hitung"):
+if st.button("Calculate"):
     st.divider()
     
     if operasi == "Penjumlahan":
@@ -46,3 +46,5 @@ if st.button("Hitung"):
             st.caption("Rumus: a ÷ b = hasil")
         else:
             st.error("Tidak bisa membagi dengan nol.")
+            if st.button("Aloha", type="tertiary"):
+    st.write("Ciao")
