@@ -46,5 +46,4 @@ if st.button("Calculate"):
             st.caption("Rumus: a ÷ b = hasil")
         else:
             st.error("Tidak bisa membagi dengan nol.")
-            if st.button("Aloha", type="tertiary"):
-    st.write("Ciao")
+          
