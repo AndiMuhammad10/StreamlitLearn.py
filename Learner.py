@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Kalkulator Lengkap", page_icon="🧠")
 
-st.title("🧮 Kalkulator + Rumus & Cara Pengerjaan")
+st.title("🧮 KALKULATOR COC 1.0")
 st.write("Masukkan dua angka, pilih operasi, dan lihat hasil serta caranya!")
 
 # Input
@@ -13,7 +13,7 @@ angka2 = st.number_input("Masukkan angka kedua:", step=1.0, format="%.2f")
 operasi = st.selectbox("Pilih operasi:", ["Penjumlahan", "Pengurangan", "Perkalian", "Pembagian"])
 
 # Tombol Hitung
-if st.button("Calculate"):
+if st.button("Hakai"):
     st.divider()
     
     if operasi == "Penjumlahan":
